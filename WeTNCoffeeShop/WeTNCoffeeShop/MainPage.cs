@@ -236,9 +236,7 @@ namespace WeTNCoffeeShop
         {
             if (MessageBox.Show("Bạn có thật sự muốn thoát không? ", "Thoát ", MessageBoxButtons.OKCancel) == DialogResult.Yes)
             {
-                LoginPage m = new LoginPage();
                 this.Close();
-                m.ShowDialog();
             }
         }
     }

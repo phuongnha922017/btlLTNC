@@ -377,7 +377,7 @@
           <Line Name="Line3">
             <Top>2.20556in</Top>
             <Height>0in</Height>
-            <Width>9.11224in</Width>
+            <Width>9.38417in</Width>
             <ZIndex>10</ZIndex>
             <Style>
               <Border>
@@ -414,7 +414,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Tên món hàng</Value>
+                                  <Value>Name Product</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -444,7 +444,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Giá </Value>
+                                  <Value>Perprice</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -474,7 +474,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Số lượng</Value>
+                                  <Value>Quantity</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -504,7 +504,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Tổng tiền </Value>
+                                  <Value>Amount</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -697,7 +697,7 @@
           <BackgroundColor>Cornsilk</BackgroundColor>
         </Style>
       </Body>
-      <Width>9.11224in</Width>
+      <Width>9.38417in</Width>
       <Page>
         <PageHeader>
           <Height>1.57167in</Height>
@@ -766,7 +766,7 @@
             <Line Name="Line2">
               <Top>1.57167in</Top>
               <Height>0in</Height>
-              <Width>9.11224in</Width>
+              <Width>9.38417in</Width>
               <ZIndex>2</ZIndex>
               <Style>
                 <Border>
@@ -789,6 +789,39 @@
                 </Border>
               </Style>
             </Image>
+            <Textbox Name="Textbox11">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Bàn số:</Value>
+                      <Style>
+                        <FontStyle>Normal</FontStyle>
+                        <FontSize>12pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox11</rd:DefaultName>
+              <Top>1.03834in</Top>
+              <Left>0.18417in</Left>
+              <Height>0.23333in</Height>
+              <Width>0.99167in</Width>
+              <ZIndex>4</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
             <Textbox Name="Textbox12">
               <CanGrow>true</CanGrow>
               <KeepTogether>true</KeepTogether>
@@ -808,10 +841,10 @@
               </Paragraphs>
               <rd:DefaultName>Textbox12</rd:DefaultName>
               <Top>1.03834in</Top>
-              <Left>0.33416in</Left>
+              <Left>1.3425in</Left>
               <Height>0.25in</Height>
-              <Width>2.9927in</Width>
-              <ZIndex>4</ZIndex>
+              <Width>0.95in</Width>
+              <ZIndex>5</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -844,7 +877,7 @@
               <Left>5.73139in</Left>
               <Height>0.25in</Height>
               <Width>0.96667in</Width>
-              <ZIndex>5</ZIndex>
+              <ZIndex>6</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -877,7 +910,7 @@
               <Left>6.71195in</Left>
               <Height>0.25in</Height>
               <Width>2.14445in</Width>
-              <ZIndex>6</ZIndex>
+              <ZIndex>7</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -897,7 +930,7 @@
           </Style>
         </PageHeader>
         <PageFooter>
-          <Height>0.625in</Height>
+          <Height>0.70833in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -936,21 +969,9 @@
               </Style>
             </Textbox>
             <Line Name="Line1">
-              <Top>0in</Top>
               <Height>0in</Height>
               <Width>8.06667in</Width>
               <ZIndex>1</ZIndex>
-              <Style>
-                <Border>
-                  <Style>Solid</Style>
-                </Border>
-              </Style>
-            </Line>
-            <Line Name="Line4">
-              <Top>0in</Top>
-              <Height>0in</Height>
-              <Width>9.11224in</Width>
-              <ZIndex>2</ZIndex>
               <Style>
                 <Border>
                   <Style>Solid</Style>

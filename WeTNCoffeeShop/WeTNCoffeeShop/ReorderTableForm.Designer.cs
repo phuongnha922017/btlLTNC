@@ -98,7 +98,7 @@
             this.label8.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(0, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(227, 45);
+            this.label8.Size = new System.Drawing.Size(275, 55);
             this.label8.TabIndex = 4;
             this.label8.Text = "Sắp xếp bàn";
             // 
@@ -116,18 +116,18 @@
             this.tabSettingTable.Multiline = true;
             this.tabSettingTable.Name = "tabSettingTable";
             this.tabSettingTable.SelectedIndex = 0;
-            this.tabSettingTable.Size = new System.Drawing.Size(452, 350);
+            this.tabSettingTable.Size = new System.Drawing.Size(508, 436);
             this.tabSettingTable.TabIndex = 14;
             this.tabSettingTable.Tag = "";
             // 
             // Tab1
             // 
             this.Tab1.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Tab1.Location = new System.Drawing.Point(33, 4);
+            this.Tab1.Location = new System.Drawing.Point(38, 4);
             this.Tab1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Tab1.Name = "Tab1";
             this.Tab1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Tab1.Size = new System.Drawing.Size(415, 342);
+            this.Tab1.Size = new System.Drawing.Size(466, 428);
             this.Tab1.TabIndex = 0;
             this.Tab1.Text = "Ground";
             this.Tab1.UseVisualStyleBackColor = true;
@@ -136,11 +136,11 @@
             // 
             this.Tab2.Controls.Add(this.flowLayoutPanel2);
             this.Tab2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Tab2.Location = new System.Drawing.Point(33, 4);
+            this.Tab2.Location = new System.Drawing.Point(38, 4);
             this.Tab2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Tab2.Name = "Tab2";
             this.Tab2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Tab2.Size = new System.Drawing.Size(415, 342);
+            this.Tab2.Size = new System.Drawing.Size(466, 428);
             this.Tab2.TabIndex = 1;
             this.Tab2.Text = "Floor";
             this.Tab2.UseVisualStyleBackColor = true;
@@ -154,10 +154,10 @@
             this.flowLayoutPanel2.Controls.Add(this.button11);
             this.flowLayoutPanel2.Controls.Add(this.button12);
             this.flowLayoutPanel2.Controls.Add(this.button13);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(8, 10);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(9, 12);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(628, 327);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(706, 409);
             this.flowLayoutPanel2.TabIndex = 1;
             // 
             // button8
@@ -166,37 +166,37 @@
             this.button8.Location = new System.Drawing.Point(3, 2);
             this.button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(119, 53);
+            this.button8.Size = new System.Drawing.Size(134, 66);
             this.button8.TabIndex = 1;
             this.button8.Text = "button8";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(128, 2);
+            this.button9.Location = new System.Drawing.Point(143, 2);
             this.button9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(119, 53);
+            this.button9.Size = new System.Drawing.Size(134, 66);
             this.button9.TabIndex = 2;
             this.button9.Text = "button9";
             this.button9.UseVisualStyleBackColor = true;
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(253, 2);
+            this.button10.Location = new System.Drawing.Point(283, 2);
             this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(119, 53);
+            this.button10.Size = new System.Drawing.Size(134, 66);
             this.button10.TabIndex = 3;
             this.button10.Text = "button10";
             this.button10.UseVisualStyleBackColor = true;
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(378, 2);
+            this.button11.Location = new System.Drawing.Point(423, 2);
             this.button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(119, 53);
+            this.button11.Size = new System.Drawing.Size(134, 66);
             this.button11.TabIndex = 4;
             this.button11.Text = "button11";
             this.button11.UseVisualStyleBackColor = true;
@@ -204,31 +204,31 @@
             // button12
             // 
             this.button12.BackColor = System.Drawing.Color.Khaki;
-            this.button12.Location = new System.Drawing.Point(503, 2);
+            this.button12.Location = new System.Drawing.Point(563, 2);
             this.button12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(119, 53);
+            this.button12.Size = new System.Drawing.Size(134, 66);
             this.button12.TabIndex = 5;
             this.button12.Text = "button12";
             this.button12.UseVisualStyleBackColor = false;
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(3, 59);
+            this.button13.Location = new System.Drawing.Point(3, 72);
             this.button13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(119, 53);
+            this.button13.Size = new System.Drawing.Size(134, 66);
             this.button13.TabIndex = 6;
             this.button13.Text = "button13";
             this.button13.UseVisualStyleBackColor = true;
             // 
             // tabPage3
             // 
-            this.tabPage3.Location = new System.Drawing.Point(33, 4);
+            this.tabPage3.Location = new System.Drawing.Point(38, 4);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage3.Size = new System.Drawing.Size(415, 342);
+            this.tabPage3.Size = new System.Drawing.Size(466, 428);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Garden";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -239,36 +239,36 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1047, 70);
+            this.panel1.Size = new System.Drawing.Size(1178, 88);
             this.panel1.TabIndex = 15;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // panel2
             // 
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(977, 70);
+            this.panel2.Location = new System.Drawing.Point(1099, 88);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(70, 605);
+            this.panel2.Size = new System.Drawing.Size(79, 756);
             this.panel2.TabIndex = 16;
             // 
             // panel3
             // 
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 70);
+            this.panel3.Location = new System.Drawing.Point(0, 88);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(48, 605);
+            this.panel3.Size = new System.Drawing.Size(54, 756);
             this.panel3.TabIndex = 17;
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.label8);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(48, 70);
+            this.panel4.Location = new System.Drawing.Point(54, 88);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(929, 63);
+            this.panel4.Size = new System.Drawing.Size(1045, 79);
             this.panel4.TabIndex = 18;
             // 
             // addAreaBox
@@ -279,11 +279,11 @@
             this.addAreaBox.Controls.Add(this.newAreaName);
             this.addAreaBox.Controls.Add(this.label4);
             this.addAreaBox.Enabled = false;
-            this.addAreaBox.Location = new System.Drawing.Point(11, 264);
+            this.addAreaBox.Location = new System.Drawing.Point(12, 330);
             this.addAreaBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.addAreaBox.Name = "addAreaBox";
             this.addAreaBox.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.addAreaBox.Size = new System.Drawing.Size(467, 165);
+            this.addAreaBox.Size = new System.Drawing.Size(525, 206);
             this.addAreaBox.TabIndex = 19;
             this.addAreaBox.TabStop = false;
             this.addAreaBox.Text = "Thêm khu vực";
@@ -294,10 +294,10 @@
             this.button2.AutoSize = true;
             this.button2.BackColor = System.Drawing.Color.Red;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(234, 96);
+            this.button2.Location = new System.Drawing.Point(263, 120);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(122, 38);
+            this.button2.Size = new System.Drawing.Size(137, 52);
             this.button2.TabIndex = 6;
             this.button2.Text = "Hủy";
             this.button2.UseVisualStyleBackColor = false;
@@ -308,10 +308,10 @@
             this.button1.AutoSize = true;
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(89, 96);
+            this.button1.Location = new System.Drawing.Point(100, 120);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 38);
+            this.button1.Size = new System.Drawing.Size(143, 52);
             this.button1.TabIndex = 2;
             this.button1.Text = "Xác nhận";
             this.button1.UseVisualStyleBackColor = false;
@@ -320,19 +320,19 @@
             // newAreaName
             // 
             this.newAreaName.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newAreaName.Location = new System.Drawing.Point(181, 39);
+            this.newAreaName.Location = new System.Drawing.Point(204, 49);
             this.newAreaName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.newAreaName.Name = "newAreaName";
-            this.newAreaName.Size = new System.Drawing.Size(259, 34);
+            this.newAreaName.Size = new System.Drawing.Size(291, 40);
             this.newAreaName.TabIndex = 1;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(5, 39);
+            this.label4.Location = new System.Drawing.Point(6, 49);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 27);
+            this.label4.Size = new System.Drawing.Size(66, 33);
             this.label4.TabIndex = 0;
             this.label4.Text = "Tên:";
             // 
@@ -346,11 +346,11 @@
             this.moveAreaBox.Controls.Add(this.button4);
             this.moveAreaBox.Controls.Add(this.label3);
             this.moveAreaBox.Enabled = false;
-            this.moveAreaBox.Location = new System.Drawing.Point(8, 5);
+            this.moveAreaBox.Location = new System.Drawing.Point(9, 6);
             this.moveAreaBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.moveAreaBox.Name = "moveAreaBox";
             this.moveAreaBox.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.moveAreaBox.Size = new System.Drawing.Size(467, 226);
+            this.moveAreaBox.Size = new System.Drawing.Size(525, 282);
             this.moveAreaBox.TabIndex = 20;
             this.moveAreaBox.TabStop = false;
             this.moveAreaBox.Text = "Chuyển bàn";
@@ -360,19 +360,19 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 113);
+            this.label5.Location = new System.Drawing.Point(14, 141);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 27);
+            this.label5.Size = new System.Drawing.Size(68, 33);
             this.label5.TabIndex = 9;
             this.label5.Text = "sang";
             // 
             // moveTableTb
             // 
             this.moveTableTb.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moveTableTb.Location = new System.Drawing.Point(224, 48);
+            this.moveTableTb.Location = new System.Drawing.Point(252, 60);
             this.moveTableTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.moveTableTb.Name = "moveTableTb";
-            this.moveTableTb.Size = new System.Drawing.Size(61, 34);
+            this.moveTableTb.Size = new System.Drawing.Size(68, 40);
             this.moveTableTb.TabIndex = 8;
             this.moveTableTb.TextChanged += new System.EventHandler(this.moveTableTb_TextChanged);
             // 
@@ -380,10 +380,10 @@
             // 
             this.areaLb.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.areaLb.FormattingEnabled = true;
-            this.areaLb.Location = new System.Drawing.Point(107, 113);
+            this.areaLb.Location = new System.Drawing.Point(120, 141);
             this.areaLb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.areaLb.Name = "areaLb";
-            this.areaLb.Size = new System.Drawing.Size(272, 34);
+            this.areaLb.Size = new System.Drawing.Size(306, 41);
             this.areaLb.TabIndex = 7;
             // 
             // button3
@@ -391,10 +391,10 @@
             this.button3.AutoSize = true;
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(307, 170);
+            this.button3.Location = new System.Drawing.Point(345, 212);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(122, 38);
+            this.button3.Size = new System.Drawing.Size(137, 52);
             this.button3.TabIndex = 6;
             this.button3.Text = "Hủy";
             this.button3.UseVisualStyleBackColor = false;
@@ -405,10 +405,10 @@
             this.button4.AutoSize = true;
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(157, 170);
+            this.button4.Location = new System.Drawing.Point(177, 212);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(127, 38);
+            this.button4.Size = new System.Drawing.Size(143, 52);
             this.button4.TabIndex = 2;
             this.button4.Text = "Xác nhận";
             this.button4.UseVisualStyleBackColor = false;
@@ -418,19 +418,19 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(5, 48);
+            this.label3.Location = new System.Drawing.Point(6, 60);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(136, 27);
+            this.label3.Size = new System.Drawing.Size(157, 33);
             this.label3.TabIndex = 0;
             this.label3.Text = "Chuyển bàn:";
             // 
             // panel6
             // 
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(48, 637);
+            this.panel6.Location = new System.Drawing.Point(54, 796);
             this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(929, 38);
+            this.panel6.Size = new System.Drawing.Size(1045, 48);
             this.panel6.TabIndex = 20;
             // 
             // panel7
@@ -438,10 +438,10 @@
             this.panel7.Controls.Add(this.panel10);
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel7.Location = new System.Drawing.Point(48, 506);
+            this.panel7.Location = new System.Drawing.Point(54, 632);
             this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(929, 131);
+            this.panel7.Size = new System.Drawing.Size(1045, 164);
             this.panel7.TabIndex = 21;
             // 
             // panel10
@@ -449,10 +449,10 @@
             this.panel10.Controls.Add(this.panel15);
             this.panel10.Controls.Add(this.panel11);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel10.Location = new System.Drawing.Point(0, 77);
+            this.panel10.Location = new System.Drawing.Point(0, 96);
             this.panel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(929, 54);
+            this.panel10.Size = new System.Drawing.Size(1045, 68);
             this.panel10.TabIndex = 1;
             // 
             // panel15
@@ -460,10 +460,10 @@
             this.panel15.Controls.Add(this.moveBtn);
             this.panel15.Controls.Add(this.iconButton1);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel15.Location = new System.Drawing.Point(394, 0);
+            this.panel15.Location = new System.Drawing.Point(443, 0);
             this.panel15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(535, 54);
+            this.panel15.Size = new System.Drawing.Size(602, 68);
             this.panel15.TabIndex = 4;
             // 
             // moveBtn
@@ -477,10 +477,10 @@
             this.moveBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.moveBtn.IconSize = 30;
             this.moveBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.moveBtn.Location = new System.Drawing.Point(164, 0);
+            this.moveBtn.Location = new System.Drawing.Point(207, 0);
             this.moveBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.moveBtn.Name = "moveBtn";
-            this.moveBtn.Size = new System.Drawing.Size(174, 54);
+            this.moveBtn.Size = new System.Drawing.Size(196, 68);
             this.moveBtn.TabIndex = 23;
             this.moveBtn.Text = "Chuyển";
             this.moveBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -502,7 +502,7 @@
             this.iconButton1.Location = new System.Drawing.Point(0, 0);
             this.iconButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(164, 54);
+            this.iconButton1.Size = new System.Drawing.Size(207, 68);
             this.iconButton1.TabIndex = 22;
             this.iconButton1.Text = "Thêm/Xóa";
             this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -518,7 +518,7 @@
             this.panel11.Location = new System.Drawing.Point(0, 0);
             this.panel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(394, 54);
+            this.panel11.Size = new System.Drawing.Size(443, 68);
             this.panel11.TabIndex = 3;
             // 
             // label2
@@ -528,7 +528,7 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(189, 31);
+            this.label2.Size = new System.Drawing.Size(219, 36);
             this.label2.TabIndex = 2;
             this.label2.Text = "Tùy chỉnh bàn:";
             // 
@@ -540,7 +540,7 @@
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(929, 56);
+            this.panel8.Size = new System.Drawing.Size(1045, 70);
             this.panel8.TabIndex = 0;
             // 
             // panel14
@@ -548,10 +548,10 @@
             this.panel14.Controls.Add(this.delAreaBtn);
             this.panel14.Controls.Add(this.addAreaBtn);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel14.Location = new System.Drawing.Point(394, 0);
+            this.panel14.Location = new System.Drawing.Point(443, 0);
             this.panel14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(535, 56);
+            this.panel14.Size = new System.Drawing.Size(602, 70);
             this.panel14.TabIndex = 3;
             // 
             // delAreaBtn
@@ -565,10 +565,10 @@
             this.delAreaBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.delAreaBtn.IconSize = 30;
             this.delAreaBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.delAreaBtn.Location = new System.Drawing.Point(164, 0);
+            this.delAreaBtn.Location = new System.Drawing.Point(184, 0);
             this.delAreaBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.delAreaBtn.Name = "delAreaBtn";
-            this.delAreaBtn.Size = new System.Drawing.Size(174, 56);
+            this.delAreaBtn.Size = new System.Drawing.Size(196, 70);
             this.delAreaBtn.TabIndex = 21;
             this.delAreaBtn.Text = "Xóa";
             this.delAreaBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -590,7 +590,7 @@
             this.addAreaBtn.Location = new System.Drawing.Point(0, 0);
             this.addAreaBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.addAreaBtn.Name = "addAreaBtn";
-            this.addAreaBtn.Size = new System.Drawing.Size(164, 56);
+            this.addAreaBtn.Size = new System.Drawing.Size(184, 70);
             this.addAreaBtn.TabIndex = 20;
             this.addAreaBtn.Text = "Thêm\r\n";
             this.addAreaBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -605,7 +605,7 @@
             this.panel9.Location = new System.Drawing.Point(0, 0);
             this.panel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(394, 56);
+            this.panel9.Size = new System.Drawing.Size(443, 70);
             this.panel9.TabIndex = 2;
             // 
             // label1
@@ -615,7 +615,7 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(237, 31);
+            this.label1.Size = new System.Drawing.Size(277, 36);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tùy chỉnh khu vực:";
             // 
@@ -624,38 +624,38 @@
             this.panel12.Controls.Add(this.moveAreaBox);
             this.panel12.Controls.Add(this.addAreaBox);
             this.panel12.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel12.Location = new System.Drawing.Point(500, 133);
+            this.panel12.Location = new System.Drawing.Point(562, 167);
             this.panel12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(477, 373);
+            this.panel12.Size = new System.Drawing.Size(537, 465);
             this.panel12.TabIndex = 22;
             this.panel12.Paint += new System.Windows.Forms.PaintEventHandler(this.panel12_Paint);
             // 
             // panel13
             // 
             this.panel13.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel13.Location = new System.Drawing.Point(48, 483);
+            this.panel13.Location = new System.Drawing.Point(54, 603);
             this.panel13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(452, 23);
+            this.panel13.Size = new System.Drawing.Size(508, 29);
             this.panel13.TabIndex = 23;
             // 
             // panel16
             // 
             this.panel16.Controls.Add(this.tabSettingTable);
             this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel16.Location = new System.Drawing.Point(48, 133);
+            this.panel16.Location = new System.Drawing.Point(54, 167);
             this.panel16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(452, 350);
+            this.panel16.Size = new System.Drawing.Size(508, 436);
             this.panel16.TabIndex = 24;
             // 
             // ReorderTableForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1047, 675);
+            this.ClientSize = new System.Drawing.Size(1178, 844);
             this.Controls.Add(this.panel16);
             this.Controls.Add(this.panel13);
             this.Controls.Add(this.panel12);

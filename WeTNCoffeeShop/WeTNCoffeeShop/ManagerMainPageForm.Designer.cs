@@ -59,7 +59,7 @@
             // 
             this.discountButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.discountButton.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.discountButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.discountButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.discountButton.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.discountButton.Location = new System.Drawing.Point(3, 109);
             this.discountButton.Name = "discountButton";
@@ -73,7 +73,7 @@
             // 
             this.changeButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.changeButton.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.changeButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.changeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.changeButton.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.changeButton.Location = new System.Drawing.Point(3, 3);
             this.changeButton.Name = "changeButton";
@@ -87,7 +87,7 @@
             // 
             this.staticButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.staticButton.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.staticButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.staticButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.staticButton.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.staticButton.Location = new System.Drawing.Point(3, 215);
             this.staticButton.Name = "staticButton";
@@ -101,7 +101,7 @@
             // 
             this.staffManageButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.staffManageButton.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.staffManageButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.staffManageButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.staffManageButton.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.staffManageButton.Location = new System.Drawing.Point(3, 321);
             this.staffManageButton.Name = "staffManageButton";
@@ -203,7 +203,7 @@
             // 
             this.changePassBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.changePassBtn.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.changePassBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.changePassBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.changePassBtn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.changePassBtn.Location = new System.Drawing.Point(3, 427);
             this.changePassBtn.Name = "changePassBtn";

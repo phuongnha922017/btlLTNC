@@ -54,40 +54,31 @@
     <Reference Include="FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.6.3.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Microsoft.ReportViewer.Common">
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1577.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ReportViewer.Common.resources, Version=15.0.0.0, Culture=en, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Microsoft.ReportViewer.Common.resources">
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1577.0\lib\net40\Microsoft.ReportViewer.Common.resources.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization">
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1577.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ReportViewer.DataVisualization.resources, Version=15.0.0.0, Culture=en, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization.resources">
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1577.0\lib\net40\Microsoft.ReportViewer.DataVisualization.resources.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Microsoft.ReportViewer.Design">
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1577.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ReportViewer.Design.resources, Version=15.0.0.0, Culture=en, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Microsoft.ReportViewer.Design.resources">
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1577.0\lib\net40\Microsoft.ReportViewer.Design.resources.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel">
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1577.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Microsoft.ReportViewer.WinForms">
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1577.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ReportViewer.WinForms.resources, Version=15.0.0.0, Culture=en, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Microsoft.ReportViewer.WinForms.resources">
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1577.0\lib\net40\Microsoft.ReportViewer.WinForms.resources.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SqlServer.Types, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
@@ -153,12 +144,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CoffeeShopDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DrinkGroupForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DrinkGroupForm.Designer.cs">
-      <DependentUpon>DrinkGroupForm.cs</DependentUpon>
     </Compile>
     <Compile Include="EndDay.cs">
       <SubType>Form</SubType>
@@ -261,9 +246,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChangePassForm.resx">
       <DependentUpon>ChangePassForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DrinkGroupForm.resx">
-      <DependentUpon>DrinkGroupForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EndDay.resx">
       <DependentUpon>EndDay.cs</DependentUpon>
