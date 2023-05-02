@@ -171,6 +171,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(218, 34);
             this.textBox2.TabIndex = 6;
+            this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
             // 
             // textBox1
             // 
@@ -181,7 +182,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(162, 34);
             this.textBox1.TabIndex = 5;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
             // label4
             // 
@@ -293,7 +294,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(89, 34);
             this.textBox6.TabIndex = 28;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.textBox6.Leave += new System.EventHandler(this.textBox6_Leave);
             // 
             // textBox5
             // 
@@ -306,7 +307,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(89, 34);
             this.textBox5.TabIndex = 27;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.textBox5.Leave += new System.EventHandler(this.textBox5_Leave);
             // 
             // textBox4
             // 
@@ -319,7 +320,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(89, 34);
             this.textBox4.TabIndex = 26;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.textBox4.Leave += new System.EventHandler(this.textBox4_Leave);
             // 
             // textBox3
             // 
@@ -332,7 +333,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(89, 34);
             this.textBox3.TabIndex = 25;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.textBox3.Leave += new System.EventHandler(this.textBox3_Leave);
             // 
             // label19
             // 
@@ -423,7 +424,7 @@
             this.label18.ForeColor = System.Drawing.Color.Brown;
             this.label18.Location = new System.Drawing.Point(6, 238);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(141, 32);
+            this.label18.Size = new System.Drawing.Size(142, 32);
             this.label18.TabIndex = 14;
             this.label18.Text = "Điều chỉnh";
             this.label18.Click += new System.EventHandler(this.label18_Click);

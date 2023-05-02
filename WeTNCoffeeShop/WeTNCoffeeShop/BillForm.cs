@@ -509,7 +509,7 @@ namespace WeTNCoffeeShop
                                                     Display.Rows[i]["Số lượng"].ToString());
                                                 lst.Add(newbill);
                                             }
-                                            PrintBill n = new PrintBill(lst, countSum(), (int)this.Tag, textBox1.Text.ToString(),
+                                            PrintBill n = new PrintBill(lst, countSum(), GetAreaName_TableName(this.Tag.ToString()), textBox1.Text.ToString(),
                                                 textBox6.Text.ToString(), textBox4.Text.ToString(), textBox7.Text.ToString());
                                             n.ShowDialog();
                                             this.Close();
@@ -528,6 +528,21 @@ namespace WeTNCoffeeShop
             {
                 MessageBox.Show("Bạn vẫn chưa ấn nút lưu nè!");
             }
+        }
+        private string GetAreaName_TableName(string tag)
+        {
+            List<AreaModel> areaModels = AreaListModel.Instance.getListArea();
+            string result = "";
+            Regex regex = new Regex("(-)");         // Split on hyphens.
+            string[] substrings = regex.Split(tag);
+            int count = 1;
+            foreach (string match in substrings)
+            {
+                if (count == 1) { result = areaModels[Convert.ToInt32(match)].Name; }
+                if (count == substrings.Length) { result += " - Bàn số " + match; }
+                count++;
+            }
+            return result;
         }
         private int getTXT(string query)
         {

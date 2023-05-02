@@ -59,7 +59,7 @@ namespace WeTNCoffeeShop
         private void changePassBtn_Click(object sender, EventArgs e)
         {
             ChangePassForm newPage = new ChangePassForm();
-            //this.Hide();
+            this.Hide();
             newPage.ShowDialog();
         }
 

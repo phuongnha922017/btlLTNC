@@ -36,6 +36,7 @@
             this.newRetypeTb = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.mangeLogoutBtn = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -107,6 +108,17 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // mangeLogoutBtn
+            // 
+            this.mangeLogoutBtn.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mangeLogoutBtn.Location = new System.Drawing.Point(907, 49);
+            this.mangeLogoutBtn.Name = "mangeLogoutBtn";
+            this.mangeLogoutBtn.Size = new System.Drawing.Size(171, 72);
+            this.mangeLogoutBtn.TabIndex = 11;
+            this.mangeLogoutBtn.Text = "Quay lại";
+            this.mangeLogoutBtn.UseVisualStyleBackColor = true;
+            this.mangeLogoutBtn.Click += new System.EventHandler(this.mangeLogoutBtn_Click);
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -123,6 +135,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(1178, 844);
+            this.Controls.Add(this.mangeLogoutBtn);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.newRetypeTb);
@@ -149,6 +162,7 @@
         private System.Windows.Forms.MaskedTextBox newRetypeTb;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button mangeLogoutBtn;
         private System.Windows.Forms.Label label8;
     }
 }

@@ -28,11 +28,11 @@ namespace WeTNCoffeeShop
         public BillAdjustForm()
         {
             InitializeComponent();
-           /* this.discountGet = 0;
-            this.pointGet = 0; 
-            this.pointUnit = 0;
-            this.percentsurcharge = 0;
-            this.priceUnit = 0;*/
+            this.discountGet = 10000;
+            this.pointGet = 20; 
+            this.pointUnit = 100;
+            this.percentsurcharge = 5;
+            this.priceUnit = 100000;
             
         }
         private bool CheckMoney(string price)
@@ -128,8 +128,8 @@ namespace WeTNCoffeeShop
         {
 
             label4.Text = textBox2.Text.ToString();
-
-                this.percentsurcharge = Convert.ToInt32(int.Parse(textBox1.Text.ToString()));
+            if (textBox1.Text != "")
+            { this.percentsurcharge = Convert.ToInt32(int.Parse(textBox1.Text.ToString())); }
             
 
         }
@@ -166,7 +166,7 @@ namespace WeTNCoffeeShop
             button2.Show();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void textBox1_Leave(object sender, EventArgs e)
         {
             if (CheckNum(textBox1.Text.ToString()))
             {
@@ -179,25 +179,25 @@ namespace WeTNCoffeeShop
             }
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void textBox3_Leave(object sender, EventArgs e)
         {
             if(CheckMoney(textBox3.Text.ToString())) { this.priceUnit = Convert.ToInt32(int.Parse(textBox3.Text.ToString())); }
             else { textBox3.Text = string.Empty; }
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
+        private void textBox4_Leave(object sender, EventArgs e)
         {
-            if(CheckMoney(textBox4.Text.ToString())) { this.pointGet = Convert.ToInt32(int.Parse(textBox4.Text.ToString())); }
+            if(CheckNum(textBox4.Text.ToString())) { this.pointGet = Convert.ToInt32(int.Parse(textBox4.Text.ToString())); }
             else { textBox4.Text = string.Empty; }
         }
 
-        private void textBox5_TextChanged(object sender, EventArgs e)
+        private void textBox5_Leave(object sender, EventArgs e)
         {
-            if(CheckMoney(textBox4.Text.ToString())) { this.pointUnit = Convert.ToInt32(int.Parse(textBox5.Text.ToString())); }
+            if(CheckNum(textBox4.Text.ToString())) { this.pointUnit = Convert.ToInt32(int.Parse(textBox5.Text.ToString())); }
             else { textBox5.Text = string.Empty; }
         }
 
-        private void textBox6_TextChanged(object sender, EventArgs e)
+        private void textBox6_Leave(object sender, EventArgs e)
         {
             if(CheckMoney(textBox6.Text.ToString())) { this.discountGet = Convert.ToInt32(int.Parse(textBox6.Text.ToString())); }
             else { textBox6.Text = string.Empty; }
@@ -206,6 +206,12 @@ namespace WeTNCoffeeShop
         private void surchargeBox_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox2_Leave(object sender, EventArgs e)
+        {
+            if (CheckMoney(textBox2.Text.ToString())) { label4.Text = textBox2.Text.ToString(); label4.Show(); }
+            else { textBox2.Text = string.Empty; }
         }
     }
 }

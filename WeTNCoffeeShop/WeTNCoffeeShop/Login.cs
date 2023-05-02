@@ -37,18 +37,14 @@ namespace WeTNCoffeeShop
                 if (newAcc.Status == 0)
                 {
                     MainPage ma = new MainPage(newAcc);
-                    textBox1.Clear();
-                    textBox2.Clear();
-                    //this.Hide();
+                    this.Hide();
                     ma.ShowDialog();
                     //Staff mainpage
                 }
                 else
                 {
                     ManagerMainPageForm main = new ManagerMainPageForm();
-                    //this.Hide();
-                    textBox1.Clear();
-                    textBox2.Clear();
+                    this.Hide();
                     main.ShowDialog();
                     //Manager mainpage
                 }

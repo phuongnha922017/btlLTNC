@@ -48,9 +48,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(148, 168);
+            this.label1.Location = new System.Drawing.Point(132, 134);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(210, 36);
+            this.label1.Size = new System.Drawing.Size(183, 31);
             this.label1.TabIndex = 4;
             this.label1.Text = "Tên tài khoản:";
             // 
@@ -58,9 +58,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(148, 235);
+            this.label2.Location = new System.Drawing.Point(132, 188);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(225, 36);
+            this.label2.Size = new System.Drawing.Size(196, 31);
             this.label2.TabIndex = 5;
             this.label2.Text = "Tên đăng nhập:";
             // 
@@ -68,9 +68,9 @@
             // 
             this.nameLbl.AutoSize = true;
             this.nameLbl.Font = new System.Drawing.Font("Times New Roman", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameLbl.Location = new System.Drawing.Point(411, 168);
+            this.nameLbl.Location = new System.Drawing.Point(332, 134);
             this.nameLbl.Name = "nameLbl";
-            this.nameLbl.Size = new System.Drawing.Size(122, 36);
+            this.nameLbl.Size = new System.Drawing.Size(106, 31);
             this.nameLbl.TabIndex = 7;
             this.nameLbl.Text = "<name>";
             // 
@@ -78,9 +78,9 @@
             // 
             this.userLbl.AutoSize = true;
             this.userLbl.Font = new System.Drawing.Font("Times New Roman", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userLbl.Location = new System.Drawing.Point(411, 235);
+            this.userLbl.Location = new System.Drawing.Point(332, 188);
             this.userLbl.Name = "userLbl";
-            this.userLbl.Size = new System.Drawing.Size(107, 36);
+            this.userLbl.Size = new System.Drawing.Size(93, 31);
             this.userLbl.TabIndex = 8;
             this.userLbl.Text = "<user>";
             // 
@@ -93,11 +93,11 @@
             this.groupBox1.Controls.Add(this.newNameTb);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Location = new System.Drawing.Point(156, 331);
+            this.groupBox1.Location = new System.Drawing.Point(139, 265);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(805, 271);
+            this.groupBox1.Size = new System.Drawing.Size(628, 211);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thay đổi";
@@ -105,10 +105,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(507, 196);
+            this.button1.Location = new System.Drawing.Point(388, 150);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 52);
+            this.button1.Size = new System.Drawing.Size(137, 42);
             this.button1.TabIndex = 13;
             this.button1.Text = "Xác nhận";
             this.button1.UseVisualStyleBackColor = true;
@@ -116,39 +116,39 @@
             // 
             // newUsernameTb
             // 
-            this.newUsernameTb.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newUsernameTb.Location = new System.Drawing.Point(373, 112);
+            this.newUsernameTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.newUsernameTb.Location = new System.Drawing.Point(305, 90);
             this.newUsernameTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.newUsernameTb.Name = "newUsernameTb";
-            this.newUsernameTb.Size = new System.Drawing.Size(373, 45);
+            this.newUsernameTb.Size = new System.Drawing.Size(283, 34);
             this.newUsernameTb.TabIndex = 12;
             // 
             // newNameTb
             // 
-            this.newNameTb.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newNameTb.Location = new System.Drawing.Point(373, 45);
+            this.newNameTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.newNameTb.Location = new System.Drawing.Point(305, 36);
             this.newNameTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.newNameTb.Name = "newNameTb";
-            this.newNameTb.Size = new System.Drawing.Size(373, 45);
+            this.newNameTb.Size = new System.Drawing.Size(283, 34);
             this.newNameTb.TabIndex = 11;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(25, 112);
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(22, 90);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(322, 45);
+            this.label7.Size = new System.Drawing.Size(246, 31);
             this.label7.TabIndex = 10;
             this.label7.Text = "Tên đăng nhập mới:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(25, 45);
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(22, 36);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(304, 45);
+            this.label8.Size = new System.Drawing.Size(233, 31);
             this.label8.TabIndex = 9;
             this.label8.Text = "Tên tài khoản mới:";
             // 
@@ -156,9 +156,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(371, 46);
+            this.label3.Location = new System.Drawing.Point(330, 37);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(446, 45);
+            this.label3.Size = new System.Drawing.Size(379, 38);
             this.label3.TabIndex = 12;
             this.label3.Text = "QUẢN LÝ TÀI KHOẢN";
             // 
@@ -166,10 +166,10 @@
             // 
             this.changePassBtn.AutoSize = true;
             this.changePassBtn.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.changePassBtn.Location = new System.Drawing.Point(837, 738);
+            this.changePassBtn.Location = new System.Drawing.Point(744, 590);
             this.changePassBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.changePassBtn.Name = "changePassBtn";
-            this.changePassBtn.Size = new System.Drawing.Size(199, 52);
+            this.changePassBtn.Size = new System.Drawing.Size(177, 42);
             this.changePassBtn.TabIndex = 14;
             this.changePassBtn.Text = "Đổi mật khẩu";
             this.changePassBtn.UseVisualStyleBackColor = true;
@@ -177,11 +177,11 @@
             // 
             // InfoForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1178, 844);
+            this.ClientSize = new System.Drawing.Size(1047, 675);
             this.Controls.Add(this.changePassBtn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox1);
