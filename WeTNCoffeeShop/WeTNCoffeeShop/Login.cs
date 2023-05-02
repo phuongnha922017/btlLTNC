@@ -39,7 +39,7 @@ namespace WeTNCoffeeShop
                     MainPage ma = new MainPage(newAcc);
                     textBox1.Clear();
                     textBox2.Clear();
-                    //this.Hide();
+                    this.Hide();
                     ma.ShowDialog();
                     //Staff mainpage
                 }

@@ -17,11 +17,11 @@ namespace WeTNCoffeeShop
         private List<BillModel> billModels;
         private long total = 0;
         private string nameCustomer = "";
-        private int id;
+        private string id = "";
         private string discount = "";
         private string surcharge = "";
         private string reason = "";
-        public PrintBill(List<BillModel> billModels, long total, int id, string nameCustomer, string discount, string surcharge, string reason)
+        public PrintBill(List<BillModel> billModels, long total, string id, string nameCustomer, string discount, string surcharge, string reason)
         {
             InitializeComponent();
             this.billModels = billModels;
@@ -42,7 +42,7 @@ namespace WeTNCoffeeShop
             ReportParameter ptotal = new Microsoft.Reporting.WinForms.ReportParameter("total", total.ToString());
             ReportParameter pdate = new Microsoft.Reporting.WinForms.ReportParameter("Date", DateTime.Now.ToString());
             ReportParameter pname = new Microsoft.Reporting.WinForms.ReportParameter("NameCustomer", nameCustomer.ToString());
-            ReportParameter pid = new Microsoft.Reporting.WinForms.ReportParameter("ID", id.ToString());
+            ReportParameter pid = new Microsoft.Reporting.WinForms.ReportParameter("ID", id);
             ReportParameter pdiscount = new Microsoft.Reporting.WinForms.ReportParameter("Discount", discount.ToString());
             ReportParameter psurcharge = new Microsoft.Reporting.WinForms.ReportParameter("Surcharge", surcharge.ToString());
             ReportParameter preason = new Microsoft.Reporting.WinForms.ReportParameter("Reason", reason.ToString());
